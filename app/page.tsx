@@ -1,9 +1,10 @@
 import ContactForm from "./components/ContactForm";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
     <main>
-      <h1>Music Academy</h1>
+      <Hero />
       <ContactForm />
     </main>
   );
