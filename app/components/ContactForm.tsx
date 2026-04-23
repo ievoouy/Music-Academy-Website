@@ -87,8 +87,12 @@ export default function ContactForm() {
             <option>Vocals</option>
           </select>
 
-          <button className="w-full bg-black text-white p-3 rounded-md font-semibold hover:opacity-90 transition">
-            Book Trial
+          <button className="w-full bg-gradient-to-r from-black to-gray-800 text-white p-3 rounded-md 
+                   transition-all duration-300 ease-in-out 
+                   hover:shadow-lg hover:shadow-black/50 
+                   hover:from-gray-800 hover:to-black 
+                   active:scale-95">
+                  Book Trial
           </button>
         </form>
       </div>
