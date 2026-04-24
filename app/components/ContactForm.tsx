@@ -29,6 +29,7 @@ export default function ContactForm() {
   };
 
   return (
+    <section id="contact" className="scroll-mt-24">
     <section className="py-24 px-6 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
@@ -96,6 +97,7 @@ export default function ContactForm() {
           </button>
         </form>
       </div>
+      </section>
     </section>
   );
 }

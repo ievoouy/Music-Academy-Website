@@ -23,6 +23,7 @@ const courses = [
 
 export default function Courses() {
   return (
+    <section id="courses" className="scroll-mt-24">
     <section className="py-24 px-6 bg-white">
       
       {/* Heading */}
@@ -63,6 +64,7 @@ export default function Courses() {
           </div>
         ))}
       </div>
+    </section>
     </section>
   );
 }

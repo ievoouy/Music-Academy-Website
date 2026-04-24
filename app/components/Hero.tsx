@@ -1,5 +1,6 @@
 export default function Hero() {
   return (
+    <section id = "#home" className="scroll-mt-24">
     <section className="relative flex flex-col items-center justify-center text-center py-32 px-6 overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black text-white">
 
       {/* Subtle Glow Effects */}
@@ -19,15 +20,21 @@ export default function Hero() {
       </p>
 
       <div className="mt-8 flex gap-4">
-        <button className="bg-white text-black px-6 py-3 rounded-md font-semibold hover:opacity-90 transition">
-          Book Free Trial
-        </button>
+        <a
+    href="#contact"
+    className="border border-white/30 px-6 py-3 rounded-md hover:bg-white/10 transition"
+  >
+    Book Free Trial
+  </a>
 
-        <button className="border border-white/30 px-6 py-3 rounded-md hover:bg-white/10 transition">
-          Explore Courses
-        </button>
+        <a
+    href="#courses"
+    className="border border-white/30 px-6 py-3 rounded-md hover:bg-white/10 transition"
+  >
+    Explore Courses
+  </a>
       </div>
-
+    </section>
     </section>
   );
 }
