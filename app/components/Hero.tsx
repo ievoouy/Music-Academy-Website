@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id = "#home" className="scroll-mt-24">
+    <section id = "home" className="scroll-mt-24">
     <section className="relative flex flex-col items-center justify-center text-center py-32 px-6 overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black text-white">
 
       {/* Subtle Glow Effects */}
